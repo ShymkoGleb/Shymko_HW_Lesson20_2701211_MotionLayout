@@ -3,4 +3,7 @@
     <dimen name="container_padding">30dp</dimen>
     <dimen name="margin_low">5dp</dimen>
     <dimen name="image_size_low">64dp</dimen>
+    <dimen name="duration_animation">3000</dimen>
+    <dimen name="frame_position_1">30</dimen>
+    <dimen name="frame_position_2">85</dimen>
 </resources>
