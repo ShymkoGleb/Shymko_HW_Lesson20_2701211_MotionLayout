@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low"
+        android:src="@drawable/logo1"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/ivLogo2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivLogo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low"
+        android:src="@drawable/logo2"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toRightOf="@id/ivLogo1"
+        app:layout_constraintRight_toLeftOf="@id/ivLogo3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivLogo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low"
+        android:src="@drawable/logo3"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toRightOf="@id/ivLogo2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivLogo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low"
+        android:src="@drawable/logo4"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/ivLogo5"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo1" />
+
+    <ImageView
+        android:id="@+id/ivLogo5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low"
+        android:src="@drawable/logo5"
+        app:layout_constraintLeft_toRightOf="@id/ivLogo4"
+        app:layout_constraintRight_toLeftOf="@id/ivLogo6"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo2" />
+
+    <ImageView
+        android:id="@+id/ivLogo6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low"
+        android:src="@drawable/logo6"
+        app:layout_constraintLeft_toRightOf="@id/ivLogo5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo3" />
+
+    <ImageView
+        android:id="@+id/ivLogo7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low"
+        android:src="@drawable/logo7"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/ivLogo8"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo4" />
+
+    <ImageView
+        android:id="@+id/ivLogo8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low"
+        android:layout_marginTop="152dp"
+        android:src="@drawable/logo8"
+        app:layout_constraintLeft_toRightOf="@id/ivLogo7"
+        app:layout_constraintRight_toLeftOf="@id/ivLogo9"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo5" />
+
+    <ImageView
+        android:id="@+id/ivLogo9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_low"
+        android:src="@drawable/logo9"
+        app:layout_constraintLeft_toRightOf="@id/ivLogo8"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo6" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
