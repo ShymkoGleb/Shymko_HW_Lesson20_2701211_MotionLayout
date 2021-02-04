@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/ivLogo1"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/image_size_low"
+        android:layout_height="@dimen/image_size_low"
         android:layout_margin="@dimen/margin_low"
         android:src="@drawable/logo1"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/ivLogo2"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/image_size_low"
+        android:layout_height="@dimen/image_size_low"
         android:layout_margin="@dimen/margin_low"
         android:src="@drawable/logo2"
         app:layout_constraintLeft_toRightOf="@id/ivLogo1"
@@ -30,8 +30,8 @@
 
     <ImageView
         android:id="@+id/ivLogo3"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/image_size_low"
+        android:layout_height="@dimen/image_size_low"
         android:layout_margin="@dimen/margin_low"
         android:src="@drawable/logo3"
         app:layout_constraintLeft_toRightOf="@id/ivLogo2"
@@ -40,8 +40,8 @@
 
     <ImageView
         android:id="@+id/ivLogo4"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/image_size_low"
+        android:layout_height="@dimen/image_size_low"
         android:layout_margin="@dimen/margin_low"
         android:src="@drawable/logo4"
         app:layout_constraintLeft_toRightOf="@id/ivLogo3"
@@ -50,8 +50,8 @@
 
     <ImageView
         android:id="@+id/ivLogo5"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/image_size_low"
+        android:layout_height="@dimen/image_size_low"
         android:layout_margin="@dimen/margin_low"
         android:src="@drawable/logo5"
         app:layout_constraintLeft_toRightOf="@id/ivLogo4"
@@ -59,8 +59,8 @@
         app:layout_constraintTop_toTopOf="parent"/>
     <ImageView
         android:id="@+id/ivLogo6"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/image_size_low"
+        android:layout_height="@dimen/image_size_low"
         android:layout_margin="@dimen/margin_low"
         android:src="@drawable/logo6"
         app:layout_constraintLeft_toRightOf="@id/ivLogo5"
